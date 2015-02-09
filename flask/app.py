@@ -1,4 +1,4 @@
-#!flask/bin/python
+# Author: Chet Lemon (http://github.com/clemon)
 from flask import request, Flask, jsonify
 import ner
 import nltk
@@ -10,7 +10,11 @@ app = Flask(__name__)
 def index():
     return "Chet Lemon - Olset Backend/API challenge"
 
-
+# POST - parse
+# input: '{"sentence" : "String sentence"}'
+# ex return: { "dates" : ["mm/dd/yy"],
+#            "durations" : ["5 days"],
+#            "locations" : ["Chicago"]}
 @app.route('/api/1.0/parse', methods=['POST'])
 def parse_sent():
     
