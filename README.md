@@ -14,3 +14,7 @@ API written for python/flask.
             'dates' : ['01/22/16'],
             'durations' : ['2 days'],
             'locations' : ['San Diego']}`*
+
+<br><br><br><br><br><br><br>
+<h2>Thanks for your time!</h2>
+[![Thanks for your time](http://img.youtube.com/vi/-UvvkWd_dR4/0.jpg)](http://youtu.be/-UvvkWd_dR4?t=3m10s)
